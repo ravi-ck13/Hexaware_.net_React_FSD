@@ -1,9 +1,12 @@
 ﻿using AssetManagement.Models;
 using AssetManagement.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using AssetManagement.DTOs;
 
 namespace AssetManagement.Controllers
 {
+    
     [ApiController]
     [Route("api/[controller]")]
     public class AssetCategoryController : ControllerBase
@@ -17,35 +20,53 @@ namespace AssetManagement.Controllers
 
         // GET: api/AssetCategory
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        [Authorize]
+        public async Task<ActionResult<IEnumerable<AssetCategoryReadDto>>> GetAll()
         {
             var categories = await _service.GetAllAsync();
-            return Ok(categories);
+            var dtoList = categories.Select(c => new AssetCategoryReadDto
+            {
+                AssetCategoryID = c.AssetCategoryID,
+                CategoryName = c.CategoryName
+            });
+
+            return Ok(dtoList);
         }
 
         // GET: api/AssetCategory/{id}
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<IActionResult> GetById(int id)
         {
-            var category = await _service.GetByIdAsync(id);
-            if (category == null)
-                return NotFound();
-            return Ok(category);
+            var cat = await _service.GetByIdAsync(id);
+            if (cat == null) return NotFound();
+
+            var dto = new AssetCategoryReadDto
+            {
+                AssetCategoryID = cat.AssetCategoryID,
+                CategoryName = cat.CategoryName
+            };
+
+            return Ok(dto);
         }
 
         // POST: api/AssetCategory
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] AssetCategory category)
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Create(AssetCategoryCreateDto dto)
         {
-            if (string.IsNullOrWhiteSpace(category.CategoryName))
-                return BadRequest("CategoryName is required.");
+            var category = new AssetCategory
+            {
+                CategoryName = dto.CategoryName
+            };
 
-            var created = await _service.CreateAsync(category);
-            return CreatedAtAction(nameof(GetById), new { id = created.AssetCategoryID }, created);
+            await _service.CreateAsync(category);
+            return Ok("Category created");
         }
 
         // PUT: api/AssetCategory/{id}
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Update(int id, [FromBody] AssetCategory category)
         {
             var updated = await _service.UpdateAsync(id, category);
@@ -56,6 +77,7 @@ namespace AssetManagement.Controllers
 
         // DELETE: api/AssetCategory/{id}
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var success = await _service.DeleteAsync(id);

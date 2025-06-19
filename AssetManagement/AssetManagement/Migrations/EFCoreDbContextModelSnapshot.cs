@@ -22,36 +22,6 @@ namespace AssetManagement.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("AssetAudit", b =>
-                {
-                    b.Property<int>("AuditID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AuditID"));
-
-                    b.Property<int>("AssetID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("EmployeeID")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("RequestDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("AuditID");
-
-                    b.HasIndex("AssetID");
-
-                    b.HasIndex("EmployeeID");
-
-                    b.ToTable("AssetAudits");
-                });
-
             modelBuilder.Entity("AssetManagement.Models.Asset", b =>
                 {
                     b.Property<int>("AssetID")
@@ -98,6 +68,37 @@ namespace AssetManagement.Migrations
                     b.ToTable("Assets");
                 });
 
+            modelBuilder.Entity("AssetManagement.Models.AssetAudit", b =>
+                {
+                    b.Property<int>("AuditID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AuditID"));
+
+                    b.Property<int>("AssetID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EmployeeID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("RequestDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.HasKey("AuditID");
+
+                    b.HasIndex("AssetID");
+
+                    b.HasIndex("EmployeeID");
+
+                    b.ToTable("AssetAudits");
+                });
+
             modelBuilder.Entity("AssetManagement.Models.AssetCategory", b =>
                 {
                     b.Property<int>("AssetCategoryID")
@@ -127,7 +128,6 @@ namespace AssetManagement.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("EmployeeID")
@@ -135,14 +135,16 @@ namespace AssetManagement.Migrations
 
                     b.Property<string>("IssueType")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<DateTime>("RequestDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Status")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.HasKey("ServiceRequestID");
 
@@ -188,6 +190,12 @@ namespace AssetManagement.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ResetToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ResetTokenExpiry")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Role")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -219,7 +227,8 @@ namespace AssetManagement.Migrations
 
                     b.Property<string>("Status")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.HasKey("AllocationID");
 
@@ -239,7 +248,6 @@ namespace AssetManagement.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LoginID"));
 
                     b.Property<string>("JWTToken")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("LoginTime")
@@ -258,7 +266,18 @@ namespace AssetManagement.Migrations
                     b.ToTable("LoginHistories");
                 });
 
-            modelBuilder.Entity("AssetAudit", b =>
+            modelBuilder.Entity("AssetManagement.Models.Asset", b =>
+                {
+                    b.HasOne("AssetManagement.Models.AssetCategory", "AssetCategory")
+                        .WithMany("Assets")
+                        .HasForeignKey("AssetCategoryID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AssetCategory");
+                });
+
+            modelBuilder.Entity("AssetManagement.Models.AssetAudit", b =>
                 {
                     b.HasOne("AssetManagement.Models.Asset", "Asset")
                         .WithMany("Audits")
@@ -275,17 +294,6 @@ namespace AssetManagement.Migrations
                     b.Navigation("Asset");
 
                     b.Navigation("Employee");
-                });
-
-            modelBuilder.Entity("AssetManagement.Models.Asset", b =>
-                {
-                    b.HasOne("AssetManagement.Models.AssetCategory", "AssetCategory")
-                        .WithMany("Assets")
-                        .HasForeignKey("AssetCategoryID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AssetCategory");
                 });
 
             modelBuilder.Entity("AssetManagement.Models.AssetServiceRequest", b =>

@@ -14,6 +14,13 @@ namespace AssetManagement.Services.Implementations
             _context = context;
         }
 
+        public async Task<IEnumerable<Asset>> GetAllWithCategoryAsync()
+        {
+            return await _context.Assets
+                .Include(a => a.AssetCategory)
+                .ToListAsync();
+        }
+
         public async Task<IEnumerable<Asset>> GetAllAsync()
         {
             return await _context.Assets.Include(a => a.AssetCategory).ToListAsync();

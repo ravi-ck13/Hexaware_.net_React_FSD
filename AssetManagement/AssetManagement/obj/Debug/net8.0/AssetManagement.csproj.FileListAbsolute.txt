@@ -9,6 +9,7 @@ F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\bin\Debug\net8
 F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\bin\Debug\net8.0\Azure.Core.dll
 F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\bin\Debug\net8.0\Azure.Identity.dll
 F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\bin\Debug\net8.0\Humanizer.dll
+F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
 F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\bin\Debug\net8.0\Microsoft.Build.Locator.dll
@@ -159,6 +160,7 @@ F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\obj\Debug\net8
 F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\obj\Debug\net8.0\AssetManagement.csproj.CoreCompileInputs.cache
 F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\obj\Debug\net8.0\AssetManagement.MvcApplicationPartsAssemblyInfo.cs
 F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\obj\Debug\net8.0\AssetManagement.MvcApplicationPartsAssemblyInfo.cache
+F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\obj\Debug\net8.0\AssetManagement.sourcelink.json
 F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\obj\Debug\net8.0\scopedcss\bundle\AssetManagement.styles.css
 F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\obj\Debug\net8.0\staticwebassets.build.json
 F:\Hexaware .Net+React\Case Study\AssetManagement\AssetManagement\obj\Debug\net8.0\staticwebassets.development.json

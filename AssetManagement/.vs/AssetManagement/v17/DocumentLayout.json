@@ -3,132 +3,44 @@
   "WorkspaceRootPath": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\controllers\\loginhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\controllers\\loginhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\implementations\\loginhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\implementations\\loginhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\interfaces\\iloginhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\interfaces\\iloginhistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\models\\loginhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\models\\loginhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\controllers\\assetservicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\controllers\\assetservicerequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\implementations\\assetservicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\implementations\\assetservicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\interfaces\\iassetservicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\interfaces\\iassetservicerequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\models\\assetservicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\models\\assetservicerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\controllers\\assetauditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\controllers\\assetauditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\implementations\\assetauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\implementations\\assetauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\interfaces\\iassetauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\interfaces\\iassetauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\models\\assetaudit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\models\\assetaudit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\models\\employeeassetallocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\models\\employeeassetallocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\models\\assetcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\models\\assetcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\controllers\\employeeassetallocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\controllers\\employeeassetallocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\implementations\\employeeassetallocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\implementations\\employeeassetallocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\interfaces\\iemployeeassetallocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\interfaces\\iemployeeassetallocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\controllers\\assetcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\controllers\\assetcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\implementations\\assetcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\implementations\\assetcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\interfaces\\iassetcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\interfaces\\iassetcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\controllers\\assetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\controllers\\assetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\interfaces\\iassetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\interfaces\\iassetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\data\\efcoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\data\\efcoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\implementations\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\implementations\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\migrations\\20250525061101_updateassetcolumns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\migrations\\20250525061101_updateassetcolumns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\models\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\data\\efcoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\data\\efcoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\migrations\\20250524053216_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\migrations\\20250524053216_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\migrations\\20250616071706_addresettokentoemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\migrations\\20250616071706_addresettokentoemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|f:\\hexaware .net\u002Breact\\case study\\assetmanagement\\assetmanagement\\dtos\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A27F051D-2E71-48CF-96A2-76AC4FE303C8}|AssetManagement\\AssetManagement.csproj|solutionrelative:assetmanagement\\dtos\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,421 +50,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginHistoryController.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\LoginHistoryController.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Controllers\\LoginHistoryController.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\LoginHistoryController.cs",
-              "RelativeToolTip": "AssetManagement\\Controllers\\LoginHistoryController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T10:03:20.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginHistoryService.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\LoginHistoryService.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Services\\Implementations\\LoginHistoryService.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\LoginHistoryService.cs",
-              "RelativeToolTip": "AssetManagement\\Services\\Implementations\\LoginHistoryService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAIwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T10:02:47.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ILoginHistoryService.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\ILoginHistoryService.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Services\\Interfaces\\ILoginHistoryService.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\ILoginHistoryService.cs",
-              "RelativeToolTip": "AssetManagement\\Services\\Interfaces\\ILoginHistoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T10:02:17.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IAssetServiceRequestService.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\IAssetServiceRequestService.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Services\\Interfaces\\IAssetServiceRequestService.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\IAssetServiceRequestService.cs",
-              "RelativeToolTip": "AssetManagement\\Services\\Interfaces\\IAssetServiceRequestService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T08:15:48.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Program.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Program.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Program.cs",
-              "RelativeToolTip": "AssetManagement\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T07:04:30.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AssetServiceRequestService.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\AssetServiceRequestService.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Services\\Implementations\\AssetServiceRequestService.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\AssetServiceRequestService.cs",
-              "RelativeToolTip": "AssetManagement\\Services\\Implementations\\AssetServiceRequestService.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T08:16:12.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AssetAuditService.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\AssetAuditService.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Services\\Implementations\\AssetAuditService.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\AssetAuditService.cs",
-              "RelativeToolTip": "AssetManagement\\Services\\Implementations\\AssetAuditService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAIwEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T08:01:36.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginHistory.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\LoginHistory.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Models\\LoginHistory.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\LoginHistory.cs",
-              "RelativeToolTip": "AssetManagement\\Models\\LoginHistory.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:06:19.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AssetServiceRequestController.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\AssetServiceRequestController.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Controllers\\AssetServiceRequestController.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\AssetServiceRequestController.cs",
-              "RelativeToolTip": "AssetManagement\\Controllers\\AssetServiceRequestController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T08:16:41.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AssetAuditController.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\AssetAuditController.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Controllers\\AssetAuditController.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\AssetAuditController.cs",
-              "RelativeToolTip": "AssetManagement\\Controllers\\AssetAuditController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T08:02:09.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IAssetAuditService.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\IAssetAuditService.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Services\\Interfaces\\IAssetAuditService.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\IAssetAuditService.cs",
-              "RelativeToolTip": "AssetManagement\\Services\\Interfaces\\IAssetAuditService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T08:01:10.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EmployeeAssetAllocationService.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\EmployeeAssetAllocationService.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Services\\Implementations\\EmployeeAssetAllocationService.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\EmployeeAssetAllocationService.cs",
-              "RelativeToolTip": "AssetManagement\\Services\\Implementations\\EmployeeAssetAllocationService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAuwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T07:50:11.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AssetServiceRequest.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\AssetServiceRequest.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Models\\AssetServiceRequest.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\AssetServiceRequest.cs",
-              "RelativeToolTip": "AssetManagement\\Models\\AssetServiceRequest.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:05:29.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EmployeeAssetAllocationController.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\EmployeeAssetAllocationController.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Controllers\\EmployeeAssetAllocationController.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\EmployeeAssetAllocationController.cs",
-              "RelativeToolTip": "AssetManagement\\Controllers\\EmployeeAssetAllocationController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAuwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T07:50:38.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EmployeeAssetAllocation.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\EmployeeAssetAllocation.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Models\\EmployeeAssetAllocation.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\EmployeeAssetAllocation.cs",
-              "RelativeToolTip": "AssetManagement\\Models\\EmployeeAssetAllocation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:04:47.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AssetCategory.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\AssetCategory.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Models\\AssetCategory.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\AssetCategory.cs",
-              "RelativeToolTip": "AssetManagement\\Models\\AssetCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:03:49.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AssetAudit.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\AssetAudit.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Models\\AssetAudit.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\AssetAudit.cs",
-              "RelativeToolTip": "AssetManagement\\Models\\AssetAudit.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA9wB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:05:52.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IEmployeeAssetAllocationService.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\IEmployeeAssetAllocationService.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Services\\Interfaces\\IEmployeeAssetAllocationService.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\IEmployeeAssetAllocationService.cs",
-              "RelativeToolTip": "AssetManagement\\Services\\Interfaces\\IEmployeeAssetAllocationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T07:49:45.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AssetCategoryService.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\AssetCategoryService.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Services\\Implementations\\AssetCategoryService.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\AssetCategoryService.cs",
-              "RelativeToolTip": "AssetManagement\\Services\\Implementations\\AssetCategoryService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAuwDYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T07:09:08.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IAssetCategoryService.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\IAssetCategoryService.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Services\\Interfaces\\IAssetCategoryService.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\IAssetCategoryService.cs",
-              "RelativeToolTip": "AssetManagement\\Services\\Interfaces\\IAssetCategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T07:07:39.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
               "Title": "AssetService.cs",
               "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\AssetService.cs",
               "RelativeDocumentMoniker": "AssetManagement\\Services\\Implementations\\AssetService.cs",
               "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\AssetService.cs",
               "RelativeToolTip": "AssetManagement\\Services\\Implementations\\AssetService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAmwEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T05:34:35.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T10:36:17.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AssetController.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\AssetController.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Controllers\\AssetController.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\AssetController.cs",
-              "RelativeToolTip": "AssetManagement\\Controllers\\AssetController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAwwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T05:45:49.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AssetCategoryController.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\AssetCategoryController.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Controllers\\AssetCategoryController.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\AssetCategoryController.cs",
-              "RelativeToolTip": "AssetManagement\\Controllers\\AssetCategoryController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAcwEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T07:14:16.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "20250525061101_UpdateAssetColumns.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Migrations\\20250525061101_UpdateAssetColumns.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Migrations\\20250525061101_UpdateAssetColumns.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Migrations\\20250525061101_UpdateAssetColumns.cs",
-              "RelativeToolTip": "AssetManagement\\Migrations\\20250525061101_UpdateAssetColumns.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T06:11:02.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 0,
               "Title": "EFCoreDbContext.cs",
               "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Data\\EFCoreDbContext.cs",
               "RelativeDocumentMoniker": "AssetManagement\\Data\\EFCoreDbContext.cs",
               "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Data\\EFCoreDbContext.cs",
               "RelativeToolTip": "AssetManagement\\Data\\EFCoreDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T04:51:35.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Asset.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\Asset.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Models\\Asset.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\Asset.cs",
-              "RelativeToolTip": "AssetManagement\\Models\\Asset.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:04:17.636Z",
+              "WhenOpened": "2025-06-17T10:17:08.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "20250524053216_InitialCreate.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Migrations\\20250524053216_InitialCreate.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Migrations\\20250524053216_InitialCreate.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Migrations\\20250524053216_InitialCreate.cs",
-              "RelativeToolTip": "AssetManagement\\Migrations\\20250524053216_InitialCreate.cs",
+              "DocumentIndex": 2,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\EmailService.cs",
+              "RelativeDocumentMoniker": "AssetManagement\\Services\\Implementations\\EmailService.cs",
+              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\EmailService.cs",
+              "RelativeToolTip": "AssetManagement\\Services\\Implementations\\EmailService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwB8AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:50:36.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "AssetManagement\\Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "AssetManagement\\Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:48:49.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250616071706_AddResetTokenToEmployee.cs",
+              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Migrations\\20250616071706_AddResetTokenToEmployee.cs",
+              "RelativeDocumentMoniker": "AssetManagement\\Migrations\\20250616071706_AddResetTokenToEmployee.cs",
+              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Migrations\\20250616071706_AddResetTokenToEmployee.cs",
+              "RelativeToolTip": "AssetManagement\\Migrations\\20250616071706_AddResetTokenToEmployee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T05:32:21.883Z"
+              "WhenOpened": "2025-06-16T07:22:14.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IEmployeeService.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\IEmployeeService.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Services\\Interfaces\\IEmployeeService.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\IEmployeeService.cs",
-              "RelativeToolTip": "AssetManagement\\Services\\Interfaces\\IEmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ResetPasswordRequest.cs",
+              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\DTOs\\ResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "AssetManagement\\DTOs\\ResetPasswordRequest.cs",
+              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\DTOs\\ResetPasswordRequest.cs",
+              "RelativeToolTip": "AssetManagement\\DTOs\\ResetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T07:02:30.771Z"
+              "WhenOpened": "2025-06-16T06:39:07.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IAssetService.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\IAssetService.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Services\\Interfaces\\IAssetService.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Interfaces\\IAssetService.cs",
-              "RelativeToolTip": "AssetManagement\\Services\\Interfaces\\IAssetService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T05:33:18.08Z",
-              "EditorCaption": ""
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "AssetManagement\\appsettings.json",
+              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\appsettings.json",
+              "RelativeToolTip": "AssetManagement\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T02:21:03.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Models\\Employee.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\Employee.cs",
-              "RelativeToolTip": "AssetManagement\\Models\\Employee.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA8wBMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "AssetManagement\\Models\\SmtpSettings.cs",
+              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Models\\SmtpSettings.cs",
+              "RelativeToolTip": "AssetManagement\\Models\\SmtpSettings.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T04:02:38.506Z"
+              "WhenOpened": "2025-06-16T06:17:22.503Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Services\\Implementations\\EmployeeService.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Services\\Implementations\\EmployeeService.cs",
-              "RelativeToolTip": "AssetManagement\\Services\\Implementations\\EmployeeService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwDgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Program.cs",
+              "RelativeDocumentMoniker": "AssetManagement\\Program.cs",
+              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Program.cs",
+              "RelativeToolTip": "AssetManagement\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwCMAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T07:03:07.855Z"
+              "WhenOpened": "2025-05-24T07:04:30.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "AssetManagement\\Controllers\\EmployeeController.cs",
-              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "AssetManagement\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AssetManagement\\Controllers\\AuthController.cs",
+              "ToolTip": "F:\\Hexaware .Net\u002BReact\\Case Study\\AssetManagement\\AssetManagement\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AssetManagement\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwIkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T07:08:03.665Z"
+              "WhenOpened": "2025-05-26T02:17:59.733Z"
             }
           ]
         }

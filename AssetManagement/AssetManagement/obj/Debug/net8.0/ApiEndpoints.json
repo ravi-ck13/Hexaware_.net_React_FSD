@@ -7,7 +7,17 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AssetManagement.DTOs.AssetReadDto, AssetManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "AssetManagement.Controllers.AssetController",
@@ -18,8 +28,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "asset",
-        "Type": "AssetManagement.Models.Asset",
+        "Name": "dto",
+        "Type": "AssetManagement.DTOs.AssetCreateDto",
         "IsRequired": true
       }
     ],
@@ -97,8 +107,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "audit",
-        "Type": "AssetManagement.Models.AssetAudit",
+        "Name": "dto",
+        "Type": "AssetManagement.DTOs.AssetAuditCreateDto",
         "IsRequired": true
       }
     ],
@@ -158,6 +168,37 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AssetManagement.Controllers.AssetAuditController",
+    "Method": "UpdateAuditStatus",
+    "RelativePath": "api/AssetAudit/{id}/status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AssetManagement.Controllers.AssetAuditController",
+    "Method": "TriggerAuditForAll",
+    "RelativePath": "api/AssetAudit/TriggerAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AssetManagement.Controllers.AssetCategoryController",
     "Method": "GetAll",
     "RelativePath": "api/AssetCategory",
@@ -165,7 +206,17 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AssetManagement.DTOs.AssetCategoryReadDto, AssetManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "AssetManagement.Controllers.AssetCategoryController",
@@ -176,8 +227,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "category",
-        "Type": "AssetManagement.Models.AssetCategory",
+        "Name": "dto",
+        "Type": "AssetManagement.DTOs.AssetCategoryCreateDto",
         "IsRequired": true
       }
     ],
@@ -255,8 +306,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "AssetManagement.Models.AssetServiceRequest",
+        "Name": "dto",
+        "Type": "AssetManagement.DTOs.AssetServiceRequestCreateDto",
         "IsRequired": true
       }
     ],
@@ -316,6 +367,54 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AssetManagement.Controllers.AuthController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Auth/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "AssetManagement.Controllers.ForgotPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AssetManagement.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AssetManagement.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AssetManagement.Controllers.AuthController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Auth/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "AssetManagement.Controllers.ResetPasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EmployeeController",
     "Method": "GetAll",
     "RelativePath": "api/Employee",
@@ -323,7 +422,17 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AssetManagement.DTOs.EmployeeReadDto, AssetManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "EmployeeController",
@@ -334,8 +443,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "employee",
-        "Type": "AssetManagement.Models.Employee",
+        "Name": "dto",
+        "Type": "AssetManagement.DTOs.EmployeeCreateDto",
         "IsRequired": true
       }
     ],
@@ -413,8 +522,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "allocation",
-        "Type": "AssetManagement.Models.EmployeeAssetAllocation",
+        "Name": "dto",
+        "Type": "AssetManagement.DTOs.EmployeeAssetAllocationCreateDto",
         "IsRequired": true
       }
     ],
@@ -474,6 +583,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AssetManagement.Controllers.EmployeeAssetAllocationController",
+    "Method": "Approve",
+    "RelativePath": "api/EmployeeAssetAllocation/approve",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "AssetManagement.DTOs.AllocationApproveDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AssetManagement.Controllers.LoginHistoryController",
     "Method": "GetAll",
     "RelativePath": "api/LoginHistory",
@@ -492,8 +617,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "login",
-        "Type": "AssetManagement.Models.LoginHistory",
+        "Name": "dto",
+        "Type": "AssetManagement.DTOs.LoginHistoryCreateDto",
         "IsRequired": true
       }
     ],
